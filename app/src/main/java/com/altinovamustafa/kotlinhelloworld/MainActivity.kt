@@ -33,5 +33,6 @@ class MainActivity : AppCompatActivity() {
 
         textMessage = findViewById(R.id.message)
         navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
+        textMessage.setText(R.string.app_name)
     }
 }
